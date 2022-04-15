@@ -1,11 +1,15 @@
 <header>
-  <h1 style="text-align: center; color: #fff; padding: 4px">
+  <h2 style="text-align: center; color: #fff; padding: 4px">
     Welcome to {{ title }} application
-  </h1>
+  </h2>
 </header>
 
 <main style="flex-grow: 1; min-height: 100px">
-  <h2>Router</h2>
+  <sys-hero
+    bg="https://images.unsplash.com/photo-1645642876553-e47a54a7d5d7"
+    [title]="'Welcome ' + title"
+    [description]="'welcome to our ' + title + ' application'"
+  ></sys-hero>
   <router-outlet></router-outlet>
 </main>
 
