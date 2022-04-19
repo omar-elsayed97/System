@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HeroModule } from 'hero';
+import { HeroModule } from '@ngom/hero';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
