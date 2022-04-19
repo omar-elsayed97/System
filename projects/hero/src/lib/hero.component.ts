@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'sys-hero',
+  selector: 'ngom-hero',
   template: `
     <section [ngStyle]="{ backgroundImage: 'url(' + bg + ')' }">
       <div class="overlay"></div>

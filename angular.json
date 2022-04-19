@@ -71,7 +71,9 @@
           "options": {
             "host": "admin.com",
             "port": 4300,
-            "ssl": false
+            "ssl": false,
+            "disableHostCheck": true,
+            "open": true
           },
           "configurations": {
             "production": {
@@ -175,7 +177,9 @@
           "options": {
             "host": "provider.com",
             "port": 4400,
-            "ssl": false
+            "ssl": false,
+            "disableHostCheck": true,
+            "open": true
           },
           "configurations": {
             "production": {
@@ -279,7 +283,9 @@
           "options": {
             "host": "client.com",
             "port": 4500,
-            "ssl": false
+            "ssl": false,
+            "disableHostCheck": true,
+            "open": true
           },
           "configurations": {
             "production": {
